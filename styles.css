@@ -22,14 +22,15 @@ hr {
 }
 /*container*/
 .container {
-    padding: 1rem 1rem;
+    padding: 2rem 2rem;
 }
 .container-center {
     max-width: 600px;
     margin: auto;
-    margin-top: 0%;
 }
-
+.showcase-list {
+    padding: 3rem;
+}
 /**Links**/
 .link {
     text-decoration: none;
@@ -44,7 +45,19 @@ hr {
     color: var(--primary-color);
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
+    display: block;
+    max-width: 100px;
+    margin: 1rem 1rem 1rem 0rem;
 }
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
 /**Lists**/
 .list-non-bullet {
     list-style: none;
